@@ -51,7 +51,6 @@ export default async function Page({ params: { slug = 'home' } }) {
 
   return (
     <article className="pt-16 pb-24">
-      {/* Allows redirects for valid pages too */}
       <PayloadRedirects disableNotFound url={url} />
 
       <Hero {...hero} />
